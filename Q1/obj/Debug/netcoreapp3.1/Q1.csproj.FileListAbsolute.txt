@@ -1,0 +1,38 @@
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4\Q1\bin\Debug\netcoreapp3.1\Q1.exe
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4\Q1\bin\Debug\netcoreapp3.1\Q1.deps.json
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4\Q1\bin\Debug\netcoreapp3.1\Q1.runtimeconfig.json
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4\Q1\bin\Debug\netcoreapp3.1\Q1.runtimeconfig.dev.json
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4\Q1\bin\Debug\netcoreapp3.1\Q1.dll
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4\Q1\bin\Debug\netcoreapp3.1\Q1.pdb
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4\Q1\obj\Debug\netcoreapp3.1\Q1.csprojAssemblyReference.cache
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4\Q1\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4\Q1\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4\Q1\obj\Debug\netcoreapp3.1\Q1_MarkupCompile.cache
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4\Q1\obj\Debug\netcoreapp3.1\Q1_MarkupCompile.lref
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4\Q1\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4\Q1\obj\Debug\netcoreapp3.1\Q1.g.resources
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4\Q1\obj\Debug\netcoreapp3.1\Q1.AssemblyInfoInputs.cache
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4\Q1\obj\Debug\netcoreapp3.1\Q1.AssemblyInfo.cs
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4\Q1\obj\Debug\netcoreapp3.1\Q1.csproj.CoreCompileInputs.cache
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4\Q1\obj\Debug\netcoreapp3.1\Q1.dll
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4\Q1\obj\Debug\netcoreapp3.1\Q1.pdb
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4\Q1\obj\Debug\netcoreapp3.1\Q1.genruntimeconfig.cache
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4 - Copy\Q1\bin\Debug\netcoreapp3.1\Q1.exe
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4 - Copy\Q1\bin\Debug\netcoreapp3.1\Q1.deps.json
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4 - Copy\Q1\bin\Debug\netcoreapp3.1\Q1.runtimeconfig.json
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4 - Copy\Q1\bin\Debug\netcoreapp3.1\Q1.runtimeconfig.dev.json
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4 - Copy\Q1\bin\Debug\netcoreapp3.1\Q1.dll
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4 - Copy\Q1\bin\Debug\netcoreapp3.1\Q1.pdb
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4 - Copy\Q1\obj\Debug\netcoreapp3.1\Q1.csprojAssemblyReference.cache
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4 - Copy\Q1\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4 - Copy\Q1\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4 - Copy\Q1\obj\Debug\netcoreapp3.1\Q1_MarkupCompile.cache
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4 - Copy\Q1\obj\Debug\netcoreapp3.1\Q1_MarkupCompile.lref
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4 - Copy\Q1\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4 - Copy\Q1\obj\Debug\netcoreapp3.1\Q1.g.resources
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4 - Copy\Q1\obj\Debug\netcoreapp3.1\Q1.AssemblyInfoInputs.cache
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4 - Copy\Q1\obj\Debug\netcoreapp3.1\Q1.AssemblyInfo.cs
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4 - Copy\Q1\obj\Debug\netcoreapp3.1\Q1.csproj.CoreCompileInputs.cache
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4 - Copy\Q1\obj\Debug\netcoreapp3.1\Q1.dll
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4 - Copy\Q1\obj\Debug\netcoreapp3.1\Q1.pdb
+C:\Users\deves\Desktop\AnotherOne\301117993(kumar)_Lab4 - Copy\Q1\obj\Debug\netcoreapp3.1\Q1.genruntimeconfig.cache

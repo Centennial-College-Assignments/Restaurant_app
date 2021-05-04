@@ -1,0 +1,200 @@
+﻿<Window x:Class="Q1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Q1"
+        mc:Ignorable="d"
+        Title="Welcome to Mama Mia Italian"
+        FontSize="15"
+        Height="550"
+        Width="900">
+    <Window.Resources>
+        <Style TargetType="{x:Type TextBox}">
+            <Setter Property="TextAlignment"
+                    Value="Right" />
+            <Setter Property="IsEnabled"
+                    Value="False" />
+        </Style>
+
+        <Style TargetType="{x:Type ComboBox}">
+            <Setter Property="ItemTemplate">
+                <Setter.Value>
+                    <DataTemplate>
+                        <TextBlock>
+                            <TextBlock.Text>
+                                <MultiBinding BindingBase.StringFormat="{}{0} - ${1}">
+                                    <Binding Path="FoodItemName" />
+                                    <Binding Path="FoodItemCost" />
+                                </MultiBinding>
+                            </TextBlock.Text>
+                        </TextBlock>
+                    </DataTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid HorizontalAlignment="Left"
+          Width="867">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="76*" />
+            <ColumnDefinition Width="149*" />
+        </Grid.ColumnDefinitions>
+
+        <ComboBox x:Name="BeveragesComboBox"
+                  ItemsSource="{Binding Beverages}"
+                  SelectionChanged="ComboBox_SelectionChanged"
+                  HorizontalAlignment="Left"
+                  Margin="107,17,0,0"
+                  VerticalAlignment="Top"
+                  Grid.Column="0"
+                  Width="180"
+                  Height="26" />
+        <ComboBox x:Name="MainCourseComboBox"
+                  ItemsSource="{Binding MainCourse}"
+                  SelectionChanged="ComboBox_SelectionChanged"
+                  HorizontalAlignment="Left"
+                  Margin="107,178,0,0"
+                  VerticalAlignment="Top"
+                  Grid.Column="0"
+                  Width="180"
+                  RenderTransformOrigin="-1.357,7.579"
+                  Height="26" />
+        <ComboBox x:Name="AppetizerComboBox"
+                  ItemsSource="{Binding Appetizer}"
+                  SelectionChanged="ComboBox_SelectionChanged"
+                  HorizontalAlignment="Left"
+                  Margin="95,15,0,0"
+                  VerticalAlignment="Top"
+                  Width="156"
+                  Grid.Column="1"
+                  Height="26" />
+        <ComboBox x:Name="DessertComboBox"
+                  ItemsSource="{Binding Dessert}"
+                  SelectionChanged="ComboBox_SelectionChanged"
+                  HorizontalAlignment="Left"
+                  Margin="95,176,0,0"
+                  VerticalAlignment="Top"
+                  Width="156"
+                  Grid.Column="1"
+                  Height="26" />
+        <DataGrid ItemsSource="{Binding OrderedItemsList}"
+                  AutoGenerateColumns="False"
+                  HorizontalAlignment="Left"
+                  Height="412"
+                  Margin="261,15,0,0"
+                  VerticalAlignment="Top"
+                  Width="301"
+                  Grid.Column="1">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Quantity"
+                                    Binding="{Binding ItemQuantity}" />
+                <DataGridTextColumn Header="Item Name"
+                                    Binding="{Binding FoodItemName}" />
+                <DataGridTextColumn Header="Item Cost"
+                                    Binding="{Binding FoodItemCost}" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="Total:"
+               HorizontalAlignment="Left"
+               Margin="20,361,0,0"
+               VerticalAlignment="Top"
+               Height="30"
+               Width="45" />
+        <Label Content="Tax:"
+               HorizontalAlignment="Left"
+               Margin="256,364,0,0"
+               VerticalAlignment="Top"
+               RenderTransformOrigin="-1.734,0.662"
+               Height="30"
+               Width="34" />
+        <Label Content="Subtotal:"
+               HorizontalAlignment="Left"
+               Margin="22,401,0,0"
+               VerticalAlignment="Top"
+               RenderTransformOrigin="0.135,0.584"
+               Height="30"
+               Width="69" />
+        <TextBox Text="{Binding TotalBeforeTax}"
+                 HorizontalAlignment="Left"
+                 Height="22"
+                 Margin="126,368,0,0"
+                 TextWrapping="Wrap"
+                 VerticalAlignment="Top"
+                 Width="98" />
+        <TextBox Text="{Binding TaxAmount}"
+                 HorizontalAlignment="Left"
+                 Height="23"
+                 Margin="20,368,0,0"
+                 TextWrapping="Wrap"
+                 VerticalAlignment="Top"
+                 Width="90"
+                 Grid.Column="1" />
+        <TextBox Text="{Binding TotalWithTax}"
+                 HorizontalAlignment="Left"
+                 Height="23"
+                 Margin="126,409,0,0"
+                 TextWrapping="Wrap"
+                 VerticalAlignment="Top"
+                 Width="98" />
+
+        <Button Content="Clear"
+                HorizontalAlignment="Left"
+                Margin="20,406,0,0"
+                VerticalAlignment="Top"
+                Width="90"
+                RenderTransformOrigin="0.5,0.5"
+                Height="26"
+                Click="ClearButton_Click"
+                Grid.Column="1" />
+        <Label Content="Beverage:"
+               HorizontalAlignment="Left"
+               Margin="5,15,0,0"
+               VerticalAlignment="Top"
+               Height="30"
+               Width="74" />
+        <Label Content="Main Course:"
+               HorizontalAlignment="Left"
+               Margin="0,174,0,0"
+               VerticalAlignment="Top"
+               Height="30"
+               Width="97" />
+        <Label Content="Appetizer:"
+               HorizontalAlignment="Left"
+               Margin="14,15,0,0"
+               VerticalAlignment="Top"
+               RenderTransformOrigin="0.351,0.184"
+               Grid.Column="1"
+               Height="30"
+               Width="77" />
+        <Label Content="Dessert:"
+               HorizontalAlignment="Left"
+               Margin="24,172,0,0"
+               VerticalAlignment="Top"
+               Grid.Column="1"
+               Height="30"
+               Width="62" />
+        <StatusBar HorizontalAlignment="Left"
+                   Height="52"
+                   Margin="18,443,0,0"
+                   VerticalAlignment="Top"
+                   Width="837"
+                   Grid.ColumnSpan="2">
+            <TextBlock HorizontalAlignment="Center"
+                       Width="385">
+                <Hyperlink NavigateUri="https://www.centennialcollege.ca"
+                           RequestNavigate="Hyperlink_RequestNavigate">
+                    <Image Source="/Centennialcollegelogo.png" />
+                </Hyperlink>
+            </TextBlock>
+
+            <TextBlock HorizontalAlignment="Right">
+                <Label Content="Devesh Kumar"
+                       Width="365"
+                       HorizontalAlignment="Right"
+                       FontSize="16"
+                       FontWeight="Bold" />
+            </TextBlock>
+        </StatusBar>
+    </Grid>
+</Window>
